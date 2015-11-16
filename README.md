@@ -1,7 +1,7 @@
 # geonamesjp_vs_ndlna
 [GeoNames.jp](http://geonames.jp/) と[国立国会図書館典拠データ](http://id.ndl.go.jp/auth/ndla) のリンクセット
 
-> このレポジトリのリンクセットは Web NDL Authorities の外部提供インタフェースを用いて作成されました。
+**このレポジトリのリンクセットは Web NDL Authorities の外部提供インタフェースを用いて作成されました**
 
 
 ## What's this?
@@ -11,7 +11,7 @@ GeoNames.jp と国立国会図書館典拠データのURIを [skos:exactMatch](h
 
 
 ## Target
-Web NDL Authorities の外部提供インタフェースの SPARQL Endpoint に対して、以下の SPARQL相当のクエリーを実行することで得られた URI を対象としてリンクセットの作成を行っています。
+Web NDL Authorities の外部提供インタフェースの SPARQL Endpoint に対して、以下の SPARQLクエリーを実行することで得られた URI を対象としてリンクセットの作成を行っています。
 
     select ?s ?label ?rel where {
       ?s  <http://www.w3.org/2004/02/skos/core#inScheme> <http://id.ndl.go.jp/auth#geographicNames> ;
